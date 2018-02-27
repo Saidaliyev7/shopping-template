@@ -1,0 +1,71 @@
+
+/*=============================================
+=            content            =
+=============================================*/
+
+.content {
+    margin: 20px 0px;
+    .content-top {
+        border-top: 1px solid #c3bcbc;
+        padding: 40px 0px;
+       ul {
+           li {
+               display: inline-block;
+               margin-right: 15px;
+               a {
+                   text-decoration: none;
+                   font-size: 13pt;
+                   color:$primarycolor;
+                   transition: 0.4s ease;
+                   text-transform: uppercase;
+                   &:hover {
+                       transition: 0.4s ease;
+                       color: $thirdcolor;
+                   }
+               }
+           }
+       }
+    }
+    .content-bottom {
+        .bottom-image {
+            margin-right: 30px;
+            margin-bottom: 30px;
+            position: relative;
+            transition: 0.4s ease;
+            &:hover {
+                transition: 0.4s ease;
+                box-shadow: -1px 0px 11px 6px rgba(184,170,184,1);
+                .image-about {
+                    opacity: 1;
+                    transition: 0.4s ease;
+                }
+            }
+            .image-about {
+                padding: 25px 0px; 
+                background-color: white;
+                position: absolute;
+                width: 100%;
+                z-index: 50;
+                opacity: 0;
+                transition: 0.4s ease;
+                box-shadow: 0px 15px 13px 6px rgba(209,205,209,1);
+            }
+            img {
+                width: 100%;
+            }
+            .image-price {
+             position: absolute;
+             top: 10px;
+             left: 10px;
+             span {
+                 color:$secondarycolor;
+             }
+            }
+        }
+        
+    }
+}
+
+
+/*=====  End of content  ======*/
+

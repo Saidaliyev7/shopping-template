@@ -1,0 +1,34 @@
+
+/*=============================================
+=            Header            =
+=============================================*/
+
+.header {
+    background-color: $primarycolor;
+    padding: 10px 0px;
+    .currency {
+       .currency-name {
+           display: inline-block;
+           color:$secondarycolor;
+           font-size: 13pt;
+       } 
+       .currency-select {
+           display: inline-block;
+           select {
+               text-transform: uppercase;
+               font-size: 13pt;
+               background-color: $primarycolor;
+               color: $secondarycolor;
+               border: none;
+               &:focus {
+               
+                outline: none;
+            }
+           }
+       }
+    }
+}
+
+
+/*=====  End of Header  ======*/
+

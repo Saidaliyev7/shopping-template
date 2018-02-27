@@ -1,0 +1,47 @@
+// bower:scss
+// endbower
+body {
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+
+/* variables */
+@import './variables/variable';
+
+
+
+/*=============================================
+=            header            =
+=============================================*/
+
+@import './layouts/header';
+
+/*=====  End of header  ======*/
+
+
+/*=============================================
+=            menu            =
+=============================================*/
+@import './layouts/menu.scss';
+
+
+/*=====  End of menu  ======*/
+
+/*=============================================
+=            slider            =
+=============================================*/
+
+@import './layouts/slider.scss';
+
+/*=====  End of slider  ======*/
+
+
+/*=============================================
+=            content            =
+=============================================*/
+
+@import './layouts/content.scss'
+
+/*=====  End of content  ======*/
+
+
